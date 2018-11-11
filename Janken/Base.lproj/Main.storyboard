@@ -59,6 +59,7 @@
                     </view>
                     <connections>
                         <outlet property="answerImageView" destination="L0M-3d-bPa" id="udo-53-A5d"/>
+                        <outlet property="answerLabel" destination="axZ-Mk-rD0" id="ZfF-OE-fbf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
