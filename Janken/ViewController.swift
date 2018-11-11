@@ -18,5 +18,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var answerImageView: UIImageView!
     @IBOutlet weak var answerLabel: UILabel!
+    @IBAction func shuffleAction(_ sender: Any) {
+    }
 }
 
