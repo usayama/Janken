@@ -21,8 +21,18 @@ class ViewController: UIViewController {
     var answerNumber = 0
     
     @IBAction func shuffleAction(_ sender: Any) {
-        // 0, 1, 2の数値をランダムに算出
-        answerNumber = Int.random(in: 0 ... 2)
+        
+        // 新しいじゃんけんの結果を一時的に格納する変数を設ける
+        var newAnswerNumber: Int
+        
+        // ランダムに結果を出すが、前回の結果と違うも結果がでるまでループ
+        repeat {
+            // 0, 1, 2の値をランダムに算出
+            newAnswerNumber = Int.random(in: 0 ... 2)
+        } while answerNumber == newAnswerNumber
+        
+        // 新しいじゃんけん結果を格納
+        answerNumber = newAnswerNumber
         
         if answerNumber == 0 {
             // グー
