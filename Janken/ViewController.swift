@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Janken
 //
-//  Created by Yusuke Nakane on 2018/11/10.
+//  Created by Usayama 2018/11/10.
 //  Copyright © 2018 usayama. All rights reserved.
 //
 
