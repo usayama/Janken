@@ -15,10 +15,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
     @IBOutlet weak var answerImageView: UIImageView!
     @IBOutlet weak var answerLabel: UILabel!
+    
     @IBAction func shuffleAction(_ sender: Any) {
+        answerLabel.text = "グー"
     }
 }
 
