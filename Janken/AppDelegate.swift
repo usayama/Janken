@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Janken
 //
-//  Created by Usayama on 2018/11/10.
+//  Created by Yusuke Nakane on 2018/11/10.
 //  Copyright © 2018 usayama. All rights reserved.
 //
 
