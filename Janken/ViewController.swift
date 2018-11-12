@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     
     @IBAction func shuffleAction(_ sender: Any) {
         answerLabel.text = "グー"
+        answerImageView.image = UIImage(named: "gu")
     }
 }
 
